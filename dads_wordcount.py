@@ -34,12 +34,3 @@ words=fdist.most_common()
 with open('dads_words.csv', 'w', encoding='utf-8') as file:
     writer=csv.writer(file)
     writer.writerows(words)
-
-# text_raw = " ".join(text)
-# wordcloud = WordCloud(width=1600, height=800).generate(text_raw)
-# plt.figure( figsize=(20,10), facecolor='k')
-# plt.imshow(wordcloud)
-# plt.axis("off")
-# plt.tight_layout(pad=0)
-# plt.show()
-# print(text[:3000])
